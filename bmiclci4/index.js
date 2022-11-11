@@ -24,3 +24,7 @@ if (height == "" || weight == "") {
 }
 
 }
+
+function refresh() {
+    window.location.reload();
+}
