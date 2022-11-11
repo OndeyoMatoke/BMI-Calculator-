@@ -15,14 +15,12 @@ if (bmi < 18.5) {
     output.innerText = bmi + ":You are underweight"
 }else if (bmi > 18.6 && bmi < 24.9){
     output.innerText = bmi + ":You are of healthy weight"
-}else if (bmi > 25 && bmi < 29.9){
-    output.innerText = bmi + ":You are overweight"
 }else {
-    output.innerText = bmi + ":You are obese"
+    output.innerText = bmi + ":You are overweight"
 }
     
 if (height == "" || weight == "") {
-    output.innerText = "Invalid weight or weight"
+    output.innerText = "Invalid height or weight"
 }
 
 }
