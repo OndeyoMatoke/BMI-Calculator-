@@ -20,5 +20,9 @@ if (bmi < 18.5) {
 }else {
     output.innerText = bmi + ":You are obese"
 }
+    
+if (height == "" || weight == "") {
+    output.innerText = "Invalid weight or weight"
+}
 
 }
